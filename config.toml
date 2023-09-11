@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://krusbersky.pages.dev"
+baseURL = "https://www.krusbersky.net"
 languageCode = "en-US"
 title = "Split - HTML Template Demo"
 theme = "hugo-split-theme"
