@@ -1,0 +1,97 @@
+# Site settings
+baseURL = "https://krusbersky.pages.dev"
+languageCode = "en-US"
+title = "Split - HTML Template Demo"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Local preview mode
+relativeURLs = true
+uglyURLs = true
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2023 Sascha Krusbersky"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Sascha Krusbersky"
+  description = "Sascha Krusbersky - Consultant with expertise in Unified Endpoint Management and a passion for modern technologies like Kubernetes and Docker. An avid OpenSource enthusiast."
+  shareImage = "images/social.jpg"
+  twitterHandle = "onepagelove"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/Studioline03.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "mailto:sascha@krusbersky.net"
+        new_tab = true # new tab
+
+      [[params.links.list1.link]]
+        text = "Something"
+        url = "mailto:sascha@krusbersky.net"
+        new_tab = false # Default, open at same tab
+
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/sascha-krusbersky"
+        new_tab = true
+
+      [[params.links.list2.link]]
+        text = "Xing"
+        url = "https://www.xing.com/profile/Sascha_Krusbersky"
+        new_tab = true
+
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Other"
+
+      [[params.links.list3.link]]
+        text = "GitHub"
+        url = "https://github.com/skr32"
+        new_tab = true
+
+      [[params.links.list3.link]]
+        text = "GitLab"
+        url = "https://gitlab.com/skr32"
+        new_tab = true
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
